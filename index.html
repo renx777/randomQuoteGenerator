@@ -6,18 +6,39 @@
     <title>Random Quote Generator</title>
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="myjs.js"></script>
 </head>
 <body>
-    <h1>Random Quote Generator</h1>
-    <h2>These are some of my favorite inspirational quotes</h2>
-    <div class="wrapper">
-      <button onclick="ranq()">New quote</button>
+    <h1 id="title" class="custom-text">Random Quote Generator</h1>
+    <h2 class="custom-text">These are some of my favorite inspirational quotes</h2>
+    
+  <div class="container">
+  <div class="row">
+    <div class="custom-text jumbotron" >
+      <p id="quotz">Winners don't Quit and Quitters dont Win</p>
     </div>
-  
-    <div class="quotes">
-      <p id="quotz">hello world</p>
-  
+  </div>
+ </div>
+    
+ 
+ <div class="custom-text container" class="wrapper">
+    
+      <div class="row">
+        <div class="col-md-6 col-xs-6"><button class="btn btn-lg btn-info" onclick="ranq()">New quote</button></div>
+        <div class="col-md-6 col-xs-6"> <button class="btn btn-lg btn-danger" onclick="tweetIt()">tweet it! </button></div>
+      </div>
+
+
+      
+     
     </div>
+    
+
+
+
+
+
 </body>
 </html>
