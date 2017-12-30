@@ -1,37 +1,65 @@
-body{
-    background-color:red;
-   
-  }
-  
-  #title{
-    font-size:80px;
-  }
+#title {
+  font-size: 80px;
+  background: rgb(69, 69, 121);
+  text-shadow: inset 1px 0px 20px 8px #000000;
+  text-shadow: 0 0px 38px rgba(0, 0, 0, 0.30), 0 10px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0px 38px rgba(0, 0, 0, 0.30), 0 10px 12px rgba(0, 0, 0, 0.22);
+  color: whitesmoke;
+}
 
-  .custom-text{
-    text-align:center;
-    font-family:Lobster;
-   }
-  h2{
-    text-align:center;
-   }
-  .wrapper {
-      text-align: center;
-      
-  }
-  
-  
-  
-  #quotes{
-  
-    margin-right:auto;
-    background-color:black;
-   margin-left:auto;
-    margin-top:20px;
-    padding:20px;
-    height:auto;
-    color:red;
-    text-align:center;
-  }
-  #quotz{
-    font-size:30px;
-  }
+.custom-text {
+  text-align: center;
+  font-family: Lobster;
+  color:whitesmoke;
+}
+
+#mainBox {
+  padding-top: 50px;
+  padding-left:30px;
+  padding-right:30px;
+  background:rgb(69, 69, 121);
+  box-shadow: inset 1px 0px 20px 8px #000000;
+}
+
+
+
+#quoteBox {
+  text-align: center;
+  font-family: Lobster;
+  box-shadow: 0 0px 38px rgba(0, 0, 0, 0.30), 0 10px 12px rgba(0, 0, 0, 0.22);
+  height: 200px;
+  margin: 0 auto;
+  color: #141313bd;
+  background: #b7b3db;
+overflow-y: auto;
+ 
+}
+
+.btn {
+  margin-top: 10px;
+  color:whitesmoke;
+  box-shadow: 0 0px 38px rgba(0, 0, 0, 0.30), 0 10px 12px rgba(0, 0, 0, 0.22);
+}
+
+h2 {
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+#quotes {
+  margin-right: auto;
+  background-color: black;
+  margin-left: auto;
+  margin-top: 20px;
+  padding: 20px;
+  height: auto;
+  color: red;
+  text-align: center;
+}
+
+#quotz {
+  font-size: 30px;
+}
